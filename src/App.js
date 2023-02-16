@@ -1,10 +1,10 @@
 import './App.css';
-import AssemblyLine from './component/assembly';
+import AssemblyLineFun from './component/func-assbly';
 
 function App() {
   return (
     <div className="App">
-      <AssemblyLine
+      <AssemblyLineFun
         stages={["Idea", "Developmet", "Testing", "Deployment"]}
       />
     </div>
